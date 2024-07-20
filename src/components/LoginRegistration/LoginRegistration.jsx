@@ -8,7 +8,7 @@ const LoginRegistration = () => {
     const[action, setAction] = useState("");
 
     const registerLink = () => {
-        setAction('active');
+        setAction('Wactive');
     };
 
     const loginLink = () => {
@@ -69,7 +69,7 @@ const LoginRegistration = () => {
 
                     <div className="register-link">
                         <p>Already have an account? <a 
-                        href="#" onClick={loginLink}>login</a> </p>
+                        href="#" onClick={loginLink}>Login</a> </p>
                     </div>
                 </form>
             </div>
